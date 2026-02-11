@@ -19,7 +19,7 @@ const io = new Server(server, {
   cors: { origin: "*", methods: ["GET", "POST"] }
 });
 
-const ROOMS = ["devops", "cloud computing", "covid19", "sports", "nodeJS", "news"];
+const ROOMS = ["kpop", "percy jackson", "harry potter", "agatha christie", "programming", "news"];
 
 app.use(cors());
 app.use(express.json());
