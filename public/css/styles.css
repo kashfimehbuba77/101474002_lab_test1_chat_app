@@ -1,17 +1,119 @@
+/* ===== GLOBAL THEME ===== */
+body {
+  background: linear-gradient(135deg, #fce4ff, #f8d7ff);
+  font-family: "Segoe UI", sans-serif;
+}
+
+/* ===== CARDS ===== */
+.card {
+  border: none;
+  border-radius: 16px;
+  box-shadow: 0 8px 25px rgba(128, 0, 128, 0.15);
+}
+
+/* ===== HEADERS ===== */
+.card-header {
+  background: linear-gradient(90deg, #a855f7, #ec4899);
+  color: white !important;
+  border-radius: 16px 16px 0 0 !important;
+  font-weight: 600;
+}
+
+/* ===== BUTTONS ===== */
+.btn-primary {
+  background: linear-gradient(90deg, #9333ea, #ec4899);
+  border: none;
+}
+
+.btn-primary:hover {
+  opacity: 0.9;
+}
+
+.btn-success {
+  background: linear-gradient(90deg, #c026d3, #f472b6);
+  border: none;
+}
+
+.btn-dark {
+  background: linear-gradient(90deg, #7e22ce, #db2777);
+  border: none;
+}
+
+.btn-outline-danger {
+  border-color: #ec4899;
+  color: #ec4899;
+}
+
+.btn-outline-danger:hover {
+  background-color: #ec4899;
+  color: white;
+}
+
+/* ===== SELECT & INPUT ===== */
+.form-control:focus,
+.form-select:focus {
+  border-color: #d946ef;
+  box-shadow: 0 0 0 0.2rem rgba(217, 70, 239, 0.25);
+}
+
+/* ===== CHAT BOX ===== */
 .chat-box {
   height: 65vh;
   overflow-y: auto;
   background: #fff;
+  border-radius: 12px;
 }
 
+/* ===== CHAT MESSAGES ===== */
 .msg {
-  padding: 8px 10px;
-  border-radius: 10px;
-  margin-bottom: 8px;
-  max-width: 80%;
-  border: 1px solid #eee;
+  padding: 10px 12px;
+  border-radius: 14px;
+  margin-bottom: 10px;
+  max-width: 75%;
+  font-size: 14px;
 }
 
-.msg.me { margin-left: auto; background: #e9f7ef; }
-.msg.other { margin-right: auto; background: #f8f9fa; }
-.msg .meta { font-size: 12px; color: #666; }
+.msg.me {
+  margin-left: auto;
+  background: linear-gradient(90deg, #c026d3, #f472b6);
+  color: white;
+}
+
+.msg.other {
+  margin-right: auto;
+  background: #f3e8ff;
+  color: #4c1d95;
+}
+
+.msg .meta {
+  font-size: 11px;
+  opacity: 0.8;
+  margin-bottom: 4px;
+}
+
+/* ===== MEMBERS LIST ===== */
+.list-group-item {
+  border-radius: 10px !important;
+  margin-bottom: 5px;
+  cursor: pointer;
+  border: 1px solid #f0abfc;
+}
+
+.list-group-item:hover {
+  background-color: #fae8ff;
+}
+
+/* ===== BADGES ===== */
+.badge.bg-secondary {
+  background-color: #a855f7 !important;
+}
+
+/* ===== SCROLLBAR (Optional Fancy) ===== */
+.chat-box::-webkit-scrollbar {
+  width: 8px;
+}
+
+.chat-box::-webkit-scrollbar-thumb {
+  background: #d946ef;
+  border-radius: 10px;
+}
