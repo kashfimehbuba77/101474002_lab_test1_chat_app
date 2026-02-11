@@ -1,0 +1,17 @@
+.chat-box {
+  height: 65vh;
+  overflow-y: auto;
+  background: #fff;
+}
+
+.msg {
+  padding: 8px 10px;
+  border-radius: 10px;
+  margin-bottom: 8px;
+  max-width: 80%;
+  border: 1px solid #eee;
+}
+
+.msg.me { margin-left: auto; background: #e9f7ef; }
+.msg.other { margin-right: auto; background: #f8f9fa; }
+.msg .meta { font-size: 12px; color: #666; }
