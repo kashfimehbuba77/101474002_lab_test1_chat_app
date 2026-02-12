@@ -1,7 +1,7 @@
-#Comp3133 Lab Test 01
+# Comp3133 Lab Test 01
 
-##Name: Kashfi Mehbuba
-##Student ID: 101474002
+## Name: Kashfi Mehbuba
+## Student ID: 101474002
 
 
 **Log In using new user credentials**
@@ -11,7 +11,7 @@
 
 **Sign Up user using existing credentials**
  
- ![Register Existing User](screenshots/RegisertingExistingUser.png)
+ ![Register Existing User](/screenshots/RegisteringExistingUser.png)
 
 
 **Sign Up user using new credentials**
